@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Science Club</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Full Calender CSS -->
+	<link href="css/fullcalendar.css" rel="stylesheet">
+	<!-- Owl Carousel CSS -->
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<!-- Pretty Photo CSS -->
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<!-- Bx-Slider StyleSheet CSS -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet"> 
+	<!-- Font Awesome StyleSheet CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- DL Menu CSS -->
+    <link href="js/dl-menu/component.css" rel="stylesheet">
+	<link href="svg/style.css" rel="stylesheet">
+	<!-- Widget CSS -->
+	<link href="css/widget.css" rel="stylesheet">
+	<!-- Typography CSS -->
+	<link href="css/typography.css" rel="stylesheet">
+	<!-- Shortcodes CSS -->
+	<link href="css/shortcodes.css" rel="stylesheet">
+	<!-- Custom Main StyleSheet CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!-- Color CSS -->
+	<link href="css/color.css" rel="stylesheet">
+	<!-- Responsive CSS -->
+	<link href="css/responsive.css" rel="stylesheet">
+	<!-- SELECT MENU -->
+	<link href="css/selectric.css" rel="stylesheet">
+	<!-- SIDE MENU -->
+	<link rel="stylesheet" href="css/jquery.sidr.dark.css">
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<!--KF KODE WRAPPER WRAP START-->
+    <div class="kode_wrapper">
+    <!-- register Modal -->
+    <div class="modal fade" id="reg-box" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-content">
+            	<!--SIGNIN AS USER START-->
+                <div class="user-box">
+                	<h2>Sign up as a User</h2>
+                    <!--FORM FIELD START-->
+                    <div class="form">
+                        <div class="input-container">
+                            <input type="text" placeholder="Name">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="E-mail">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="input-container">
+                            <input type="password" placeholder="Password">
+                            <i class="fa fa-unlock"></i>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="radio">
+                                    <input type="checkbox" name="foo" value="1" checked>
+                                    <span class="radio-value" aria-hidden="true"></span>
+                                </span>
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <button class="btn-style">Sign Up</button>
+                        </div>
+                    </div>
+                    <!--FORM FIELD END-->
+                    <!--OPTION START-->
+                    <div class="option">
+                        <h5>Or Using</h5>
+                    </div>
+                    <!--OPTION END-->
+                    <!--OPTION START-->
+                    <div class="social-login">
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+                    </div>
+                    <!--OPTION END-->
+                </div>
+                <!--SIGNIN AS USER END-->
+                <div class="user-box-footer">
+                    Already have an account? <a href="#">Sign In</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- register Modal end-->
+    
+    <!-- SIGNIN MODEL START -->
+    <div class="modal fade" id="signin-box" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-content">
+                <div class="user-box">
+                    <h2>Sign In</h2>
+                    <!--FORM FIELD START-->
+                    <div class="form">
+                        <div class="input-container">
+                            <input type="text" placeholder="E-mail">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="input-container">
+                            <input type="password" placeholder="Password">
+                            <i class="fa fa-unlock"></i>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="radio">
+                                    <input type="checkbox" name="foo" value="1" checked>
+                                    <span class="radio-value" aria-hidden="true"></span>
+                                </span>
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <button class="btn-style">Sign In</button>
+                        </div>
+                    </div>
+                    <!--FORM FIELD END-->
+                    <!--OPTION START-->
+                    <div class="option">
+                        <h5>Or Using</h5>
+                    </div>
+                    <!--OPTION END-->
+                    <!--OPTION START-->
+                    <div class="social-login">
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+                    </div>
+                    <!--OPTION END-->
+                
+                </div>
+                <div class="user-box-footer">
+                    <p>Don't have an account?<br><a href="#">Sign up as a User</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- SIGNIN MODEL END -->
+    
+	
+    	<!--HEADER START-->
+    	<header id="header_2"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    		<!--kode top bar start-->
+    		<!--kode top bar end-->
+        
+<!--25 years of excellance-->
+ 
+ <style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+	    	<!--kode navigation start-->
+    		<div class="kode_navigation" style="background-colo:#006690;">
+    			<div id="mobile-header">
+                	<a id="responsive-menu-button" href="#sidr-main"><i class="fa fa-bars"></i></a>                </div>
+    			<div class="" style="margin-left:20px!important;">
+    				<div class="">
+    					<div class="col-md-2">
+    						<div class="logo_wrap">
+    							<a href="index.php"><img src="extra-images/Blue_Red_White_Modern_Concept_Football_Club_Logo-removebg-preview.png" width="60%" alt=""></a>    						</div>
+    					</div>
+						<div class="col-md-10 title-1">
+							<h1 >Amity University <span style="color:#dba921">Science Club</span></h1>
+						</div>
+    					<div class="col">
+    						<!--kode nav_2 start-->
+    						<div class="nav_2 " >
+    								<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-0" style="float:center;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+    							
+    					</div>
+    					
+    				</div>
+    			</div>
+    		
+    			
+    		</div>
+    		<!--kode navigation end-->
+    	
+		</header>
+		<!--HEADER END-->
+
+        <!--Banner Wrap Start-->
+        <div class="kf_inr_banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                    	<!--KF INR BANNER DES Wrap Start-->
+                        <div class="kf_inr_ban_des">
+                        	<div class="inr_banner_heading">
+								<h4 align="left" style="color:white;"> Science Club</h4>
+                        	</div>
+                        </div>
+                        <!--KF INR BANNER DES Wrap End-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Banner Wrap End-->
+
+    	<!--Content Wrap Start-->
+    	<div class="kf_content_wrap">
+    		<section>
+    			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+
+							<!--EVENT CONVOCATION OUTER Wrap START-->
+							<div class="kf_convocation_outer_wrap">	
+								<div class="convocation_slider">
+
+									<div id="owl-demo-23" class="owl-carousel owl-theme">
+
+										<div class="item"><figure><img src="extra-images/science/1.png"  width="750" height="408" alt=""></figure></div>
+											<div class="item"><figure><img src="extra-images/science/2.png" width="750" height="408" alt=""></figure></div>
+												<div class="item"><figure><img src="extra-images/science/3.png" width="750" height="408" alt=""></figure></div>
+													<div class="item"><figure><img src="extra-images/science/4.png" width="750" height="408" alt=""></figure></div>
+									
+
+									</div>
+								</div>
+
+								<!--EVENT CONVOCATION  Wrap START-->
+								<div class="kf_convocation_wrap"  >
+									<h4 id="about"><span >About</span> The Science Club</h4>
+									
+
+									<!--EVENT CONVOCATION DES START-->
+									<div class="kf_convocation_des">
+										<h5>INTRODUCTION  </h5>
+										<p align="justify"> The primary objective of the Science Club is to cultivate enlightenment among students regarding fundamental principles of science and technology. Operating within Amity University Madhya Pradesh, this organization plays a pivotal role in equipping students with a comprehensive understanding of scientific concepts and principles, thereby establishing a robust foundation, both in theory and practice, for their future endeavors. The activities orchestrated by the Science Club encompass the realm of science and technology, encompassing innovation, modeling, experimentation, and the study of topics that hold intrinsic value for the environment, the general populace, and technologies with practical applications. This platform nurtures a scientific approach to learning, encouraging students to critically evaluate and contemplate the myriad questions they encounter in their daily lives. Furthermore, the Science Club endeavors to establish collaborative partnerships with like-minded organizations, seeking to share and advance mutual interests.</p>
+										<p align="justify">    The Science Club, situated within Amity University Madhya Pradesh, is dedicated to instilling a sense of enlightenment among its student body by disseminating essential knowledge of science and technology. It serves as an instrumental platform for students to develop a sound comprehension of the underlying scientific principles, thereby facilitating the establishment of a well-rounded foundation, encompassing both theoretical and practical aspects, that will guide them through their future undertakings. The Science Club is committed to embracing all activities related to science and technology, which encompasses innovation, modeling, experimentation, and the exploration of subjects that contribute positively to the environment, the common populace, and technologies that are readily adaptable. By promoting a scientific approach to learning, the Science Club encourages students to critically analyze and reflect upon the various queries that arise in their daily lives. Additionally, the club aspires to foster collaborations with other organizations that share common or akin interests, further enriching the collective knowledge and experience.</p>
+										
+
+										<div class="alert " style="background-color:#dba921"><strong>OBJECTIVE OF SCIENCE CLUB</strong></div>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Guiding Principles behind the scheme are a useful starting point for those wishing to develop their own activities.The five Guiding Principles govern how the activities have been developed.nvestigator activity offers Student the opportunity to:<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To arouse and cultivate students interest in learning Science.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To encourage student to participate actively in activities organized by the club.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To promote the use of IT in learning Science.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To understand the knowledge through experiments and activities.<br>
+</p>
+								<div class="alert " style="background-color:#dba921"><strong>THINGS TO DO IN A SCIENCE CLUB</strong> </div>
+                              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*To maintain science chart of entire year.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To give information about science behind the things through posters weekly or monthly basis. .<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To organize one hour guest lecture once in a three or four months time duration.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	To organise in- house activities time to time like Live demo of chemical reactions and chemical gases (like nitrogen etc.), How electric motor works, How to make working models etc. 
+(these are the examples, time to time other activities may change)
+.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	Organise written and oral quiz competition (related to sciences)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*	One day visit to science Labs (external)
+</p>
+										
+											
+							<div class="alert " style="background-color:#dba921"><strong>2021-2022</strong></div>
+                                <p> <table width="700" border="1">
+				   <tr bordercolor="#000033" bgcolor="#000033">
+                      <td width="37"><div align="center" class="style3"><font color="white">S.No</font></div></td>
+                      <td width="90"><div align="center" class="style3"><font color="white">Name Of The Event</font></div></td>
+                      <td width="112"><div align="center" class="style3"><font color="white">Duration</font></div></td>
+					  <td width="112"><div align="center" class="style3"><font color="white">Document</font></div></td>
+                      </tr>
+                    <tr>
+                      <td><div align="center">1</div></td>
+                      <td valign="top"><div align="left">SSB Guidance Session Series for the Preparation of Interview of SSB </div></td>
+                      <td><div align="center">28-11-2021</div></td>
+					  <td rowspan="4"><div align="center" ><a href="documents/2021-22.zip" download  style="text-align:center;">2021-22</a></div></td>
+                    </tr>
+                    <tr>
+                      <td><div align="center">2</div></td>
+                      <td valign="top"><div align="left">National webinar on “Personality Development Program”   </div></td>
+                      <td><div align="center">05-12-2021  </div></td>
+                    </tr>
+					<tr>
+                      <td><div align="center">3</div></td>
+                      <td valign="top"><div align="left">National webinar on “Skill Enhancement Program  </div></td>
+                      <td><div align="center">19-12-2021  </div></td>
+                    </tr>
+					<tr>
+                      <td><div align="center">4</div></td>
+                      <td valign="top"><div align="left">Super tips for cracking the Interview  </div></td>
+                      <td><div align="center">26-12-2021 </div></td>
+                    </tr>
+                   
+                   
+                    
+                                </table>
+                                
+                                	<div class="alert " style="background-color:#dba921"><strong>2019-2020</strong></div>
+                                <p> <table width="700" border="1">
+				   <tr bordercolor="#000033" bgcolor="#000033">
+                      <td width="37"><div align="center" class="style3"><font color="white">S.No</font></div></td>
+                      <td width="90"><div align="center" class="style3"><font color="white">Name Of The Event</font></div></td>
+                      <td width="112"><div align="center" class="style3"><font color="white">Duration</font></div></td>
+					  <td width="112"><div align="center" class="style3"><font color="white">Document</font></div></td>
+                      </tr>
+                    <tr>
+                      <td><div align="center">1</div></td>
+                      <td valign="top"><div align="left">Physics Super Tips & Tricks for Success in JEE and Competitive Exams  </div></td>
+                      <td><div align="center">14-06-2020</div></td>
+					  <td rowspan="3"><div align="center" ><a href="documents/2019-20.zip" download  style="text-align:center;">2019-20</a></div></td>
+
+                    </tr>
+                    <tr>
+                      <td><div align="center">2</div></td>
+                      <td valign="top"><div align="left">MEMS Technology: A Driver for IOT Applications</div></td>
+                      <td><div align="center">24-06-2020 </div></td>
+                    </tr>
+                   
+                   
+                    
+                                </table>
+                                	<div class="alert " style="background-color:#dba921"><strong>2018-2019</strong></div>
+                                <p> <table width="700" border="1">
+				   <tr bordercolor="#000033" bgcolor="#000033">
+                      <td width="37"><div align="center" class="style3"><font color="white">S.No</font></div></td>
+                      <td width="90"><div align="center" class="style3"><font color="white">Name Of The Event</font></div></td>
+                      <td width="112"><div align="center" class="style3"><font color="white">Duration</font></div></td>
+					  <td width="112"><div align="center" class="style3"><font color="white">Document</font></div></td>
+
+                      </tr>
+                    <tr>
+                      <td><div align="center">1</div></td>
+                      <td valign="top"><div align="left">Industrial visit to DRDO-Agra  </div></td>
+                      <td><div align="center">11-11-2019 </div></td>
+					  <td rowspan="1"><div align="center" ><a href="documents/2018-19.zip" download  style="text-align:center;">2018-19</a></div></td>
+
+                    </tr>
+                    
+                   
+                   
+                    
+                                </table>
+                                
+                                <div class="alert " style="background-color:#dba921"><strong>2017-2018</strong></div>
+                                <p> <table width="700" border="1">
+				   <tr bordercolor="#000033" bgcolor="#000033">
+                      <td width="37"><div align="center" class="style3"><font color="white">S.No</font></div></td>
+                      <td width="90"><div align="center" class="style3"><font color="white">Name Of The Event</font></div></td>
+                      <td width="112"><div align="center" class="style3"><font color="white">Duration</font></div></td>
+					  <td width="112"><div align="center" class="style3"><font color="white">Document</font></div></td>
+
+                      </tr>
+                    <tr >
+                      <td><div align="center">1</div></td>
+                      <td valign="top"><div align="left">Aaroh-2K17 </div></td>
+                      <td><div align="center">16-17 February 2017 </div></td>
+					  <td rowspan="3" style="text-align:center;"><div align="center"   ><a href="documents/2017-18.zip" download>2017-18</a></div></td>
+
+                    </tr>
+                    <tr>
+                      <td><div align="center">2</div></td>
+                      <td valign="top"><div align="left">National Workshop on Web Design and Development.</div></td>
+                      <td><div align="center">2-3 February 2018</div></td>
+                    </tr>
+                     <tr>
+                      <td><div align="center">3</div></td>
+                      <td valign="top"><div align="left">National Conference on Smart Materials: Energy and Environment for Smart Cities ( NSES-2018)</div></td>
+                      <td><div align="center" style="text-align:center;">28-02-2018 </div></td>
+                      </tr>
+					  
+                   
+                   
+                    
+                                </table>
+
+									</div>
+									<!--EVENT CONVOCATION DES END-->
+
+								</div>
+								<!--EVENT CONVOCATION  Wrap END-->
+
+							</div>
+							<!--EVENT CONVOCATION OUTER Wrap END-->
+
+						</div>
+
+						<!--KF_EDU_SIDEBAR_WRAP START-->
+    					<div class="col-md-4">
+    						<div class="kf-sidebar" style="    background-color: #dba921;">
+
+    							<!--KF_SIDEBAR_SEARCH_WRAP START-->
+    							<div class="widget widget-search">
+                                	
+    								<h4 style="color:#ffffff">Coordinators </H4>
+    							</div>
+    							<!--KF_SIDEBAR_SEARCH_WRAP END-->
+    							
+                            	<!--KF EDU SIDEBAR COURSES CATEGORieS WRAP START-->
+	    						<div class="widget widget-categories">
+	    						
+									<ul>
+							<li><a href="#">Dr.Pankaj Kumar Mishra <br>Asst.Prof.,ASET, Co-Ordinator,Science Club</a></li>
+							<li><a href="#">Dr.Manisha Jain <br>Asst.Prof.,ASET, Co-Ordinator,Science Club</a></li>
+									</ul>
+	    						</div>
+	    						<!--KF EDU SIDEBAR COURSES CATEGORieS WRAP END-->
+    						
+    							
+
+    						<!--KF_SIDEBAR_ARCHIVE_WRAP START-->
+							<!--KF_SIDEBAR_SEARCH_WRAP START-->
+    							<div class="widget widget-search">
+                                	
+    								<h5>Science Club Reports</h5>
+    							</div>
+    							<!--KF_SIDEBAR_SEARCH_WRAP END-->
+			<div class="widget widget-archive ">
+				
+				<ul class="sidebar_archive_des">
+				    	<li>
+						<a href="extra-images/science/events/scienceclubreport18-19.pdf">Club Activities 2018-2019</a>
+					</li>
+					<li>
+						<a href="extra-images/science/events/scienceclubreport17-18.pdf">Club Activities 2017-2018</a>
+					</li>
+					
+				</ul>
+			</div>
+			<!--KF_SIDEBAR_ARCHIVE_WRAP END-->
+
+	    						<!--KF SIDE BAR COURSES LIST WRAP START WRAP START-->
+	    						<div class="widget widget-courses-list">
+	    							<h5>Up Comming Events</h5>
+	    							<hr>
+	    							<ul>
+	    								<li>
+                                        	<figure>
+                                            	<img src="extra-images/science/10.jpg" width="250" height="75" alt="">
+	    										<a href="#">View Detail</a>
+	    									</figure>
+	    								</li>
+
+	    								<li>
+                                        	<figure>
+                                            	<img src="extra-images/science/11.jpg" width="250" height="75" alt="">
+	    										<a href="#">View Detail</a>
+	    									</figure>
+	    								</li>
+
+	    								<li>
+                                        	<figure>
+                                            	<img src="extra-images/science/12.jpg" width="250" height="75" alt="">
+	    										<a href="#">View Detail</a>
+	    									</figure>
+	    								</li>
+	    							
+	    							</ul>
+	    						</div>
+	    						<!--KF SIDE BAR COURSES LIST WRAP START WRAP END-->
+
+	    					
+
+    						</div>
+    					</div>
+						<!--KF EDU SIDEBAR WRAP END-->
+
+					</div>
+				</div>
+    		</section>
+    	</div>
+        <!--Content Wrap End-->
+        <!--NEWS LETTERS START-->
+		<div class="edu2_ft_topbar_wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="edu2_ft_topbar_des">
+							<h6> Science Club Activities</h6>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="edu2_ft_topbar_des">
+							<form>
+							
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--NEWS LETTERS END-->
+		<!--FOOTER START-->
+		<footer>
+			<!--EDU2 FOOTER CONTANT WRAP START-->
+				<div class="container">
+					<div class="row">
+						<!--EDU2 FOOTER CONTANT DES START-->
+						<div class="col-md-3">
+							<div class="widget widget-links">
+								<h5>Quick Links</h5>
+								<ul>
+									<li><a href="aboutus.php">About us</a></li>
+									<li><a href="#">News Letter</a></li>
+									<li><a href="#">Magazine</a></li>
+									<li><a href="#">Press Release</a></li>
+									<li><a href="#">College Events</a></li>
+								</ul>
+							</div>
+						</div>
+						<!--EDU2 FOOTER CONTANT DES END-->
+
+						<!--EDU2 FOOTER CONTANT DES START-->
+						<div class="col-md-3">
+							<div class="widget widget-links">
+								<h5>Student Zone</h5>
+								<ul>
+									<li><a href="#">Intra net</a></li>
+									<li><a href="#">Student Login</a></li>
+									<li><a href="https://annauniv.edu">Anna University </a></li>
+									<li><a href="http://coe1.annauniv.edu/home">Internals and result</a></li>
+									<li><a href="#">Latest Informations</a></li>
+								</ul>
+							</div>
+						</div>
+						<!--EDU2 FOOTER CONTANT DES END-->
+
+						<!--EDU2 FOOTER CONTANT DES START-->
+						<div class="col-md-3">
+							<div class="widget wiget-instagram">
+								<h5>Sports Gallery</h5>
+								<ul>
+									<li><a href="#"><img src="extra-images/pd/1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/instagram-2.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/11.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/3.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/44.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/55.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/66.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/7.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="extra-images/pd/8.jpg" alt=""/></a></li>
+								</ul>
+							</div>
+						</div>
+						<!--EDU2 FOOTER CONTANT DES END-->
+
+						<!--EDU2 FOOTER CONTANT DES START-->
+						<div class="col-md-3">
+							<div class="widget widget-contact">
+								<h5>Contact</h5>
+								<ul>
+									<li></li>
+									<li>Phone :  </li>
+									<li>Email : <a href="#"> </a></li>
+								</ul>
+							</div>
+						</div>
+						<!--EDU2 FOOTER CONTANT DES END-->
+					</div>
+				</div>
+		</footer>
+		<!--FOOTER END-->
+		<!--COPYRIGHTS START-->
+		<div class="edu2_copyright_wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="edu2_ft_logo_wrap">
+							<a href="#"><img src="extra-images/Blue Red White Modern Concept Football Club Logo.png" style="border-radius:50%; width:80%;" alt=""/></a>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="copyright_des">
+							<span> Copyright&copy;2023. Amity Science Club </span>
+						</div>
+						<div class="copyright_des">
+							<span> Developed By Narendra Singh Yadav</span>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+		<!--COPYRIGHTS START-->
+    </div>
+    <!--KF KODE WRAPPER WRAP END-->
+	<!--Bootstrap core JavaScript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Bx-Slider JavaScript-->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!--Owl Carousel JavaScript-->
+	<script src="js/owl.carousel.min.js"></script>
+	<!--Pretty Photo JavaScript-->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<!--Dl Menu Script-->
+	<script src="js/dl-menu/modernizr.custom.js"></script>
+	<!--Dl Menu Script-->
+	<script src="js/dl-menu/jquery.dlmenu.js"></script>
+	<!--Dl Menu Script-->
+	<script src="js/dl-menu/modernizr.custom.js"></script>
+	<!--Dl Menu Script-->
+	<script src="js/dl-menu/jquery.dlmenu.js"></script>
+	<!--Full Calender JavaScript-->
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<!--Image Filterable JavaScript-->
+	<script src="js/jquery-filterable.js"></script>
+	<!--Accordian JavaScript-->
+	<script src="js/jquery.accordion.js"></script>
+	<!--Number Count (Waypoints) JavaScript-->
+	<script src="js/waypoints-min.js"></script>
+	<!--v ticker-->
+	<script src="js/jquery.vticker.min.js"></script>
+	<!--select menu-->
+	<script src="js/jquery.selectric.min.js"></script>
+	<!--Side Menu-->
+	<script src="js/jquery.sidr.min.js"></script>
+	<!--Custom JavaScript-->
+	<script src="js/custom.js"></script>
+
+    
+</body>
+</html>
